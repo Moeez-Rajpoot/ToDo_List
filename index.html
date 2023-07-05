@@ -8,12 +8,13 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        
        <div class="container">
         <div class="todo-app">
             <h2>Todo List <img id="img" src="list.png"></h2>
             <div class="row">
-                <input type="text" placeholder="Add Your Task Here">
-                <button>ADD</button>
+                <input id="inbox" type="text" placeholder="Add Your Task Here">
+                <button onclick="add()">ADD</button>
             </div>
             <ul id="task">
                 <!-- <li class="checked">Task 1</li>
